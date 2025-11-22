@@ -1,3 +1,0 @@
-git add .
-git commit -m "Make scripts executable"
-git push
