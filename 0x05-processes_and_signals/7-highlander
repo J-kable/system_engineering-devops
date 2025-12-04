@@ -2,7 +2,7 @@
 #!/usr/bin/env bash
 # This script runs indefinitely and handles SIGTERM by printing "I am invincible!!!"
 
-# Trap SIGTERM and override its default behavior
+# Define a trap for SIGTERM
 trap 'echo "I am invincible!!!"' SIGTERM
 
 while true
