@@ -1,0 +1,12 @@
+#!/bin/bash
+#!/usr/bin/env bash
+# This script runs indefinitely and handles SIGTERM by printing "I am invincible!!!"
+
+# Trap SIGTERM and override its default behavior
+trap 'echo "I am invincible!!!"' SIGTERM
+
+while true
+do
+  echo "To infinity and beyond"
+  sleep 2
+done
