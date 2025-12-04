@@ -1,5 +1,5 @@
 #!/bin/bash 
 #!/usr/bin/env bash
-# This script lists all running processes in a user-oriented format with hierarchy
+# This script displays all running processes in a user-oriented format with hierarchy
 
-ps -eo user,lstart,command --forest
+ps -eo user,pid,pcpu,pmem,vsz,rss,tty,stat,lstart,time,command --forest
