@@ -1,5 +1,5 @@
 #!/bin/bash 
 #!/usr/bin/env bash
-# Display processes in required format
+# Forcefully kill the 7-highlander process
 
-ps -auxf
+pkill -f 7-highlander --signal 9
